@@ -1,0 +1,494 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* <!-- ------------------------------header------------------------ --> */
+body p{
+    transition: 0.5s;
+}
+
+body p:hover{
+    color:rgb(208,131,207);
+    cursor: pointer;
+    transition: 0.5s;
+}
+body img{
+    transition: 0.5s;
+}
+body img:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.head li{
+    list-style-type: none;
+    display: inline-block;
+}
+.div1{
+    background-color: rgb(44,44,44);
+}
+.nav1{
+    display: inline-block;
+    padding: 15px;
+    margin-left: 45px;
+}
+.nav2{
+    position: absolute;
+    left: 1015px;
+    text-align: right;
+    width: 250px;
+}
+
+.a{
+    padding: 15px;
+    border-right: 1px solid rgb(65, 63, 63);
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    transition: background 0.5s;
+    cursor: pointer;
+
+}
+a:hover{
+    background-color: rgb(208,131,207);
+
+}
+.aa{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+/* <!-- ------------heading-------------- --> */
+
+.div2{
+    width: 90%;
+    margin: auto;
+    height: 120px;
+}
+
+.p{
+    font-size: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-top: 25px;
+}
+.p span{
+    color: rgb(208,131,207);
+    margin-left: -12px;
+}
+
+/* --------------------header 2------------------------ */
+
+.div3{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(44,44,44);
+}
+.nav3{
+    
+    padding: 10px;
+    display: inline-block;
+    margin-left: -8px;
+    margin-bottom: 2px;
+}
+
+.list1{
+    display: inline-block ;
+}
+.b{
+
+    padding: 10px;
+    border-right: 1px solid rgb(197, 191, 191);
+    text-decoration: none;
+    color: rgb(221,221,221);
+    transition: background 0.5s;
+    cursor: pointer;
+    margin-right: -4px;
+    font-size: 14px;
+}
+.bb{
+    padding: 10px;
+    text-decoration: none;
+    /* font-size: 15px; */
+    color: rgb(221,221,221);
+    transition: background 0.5s;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* ------------------------------------small slider--------------------- */
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.div4{
+    margin-top: 20px;
+}
+.col-1 .pp{
+    background-color:rgb(208,131,207) ;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 6.5px;
+}
+.col-1{
+    flex-basis: 15%;
+    text-align: center;
+}
+.col-2 img , .col-2 p{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.col-2{
+    background-color: black;
+    flex-basis: 65%;
+    padding: 7px;
+}
+
+
+.col-3{
+    flex-basis: 20%;
+    border: 1px solid black;
+}
+.fa{
+    padding: 9px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: -4px;
+    color: rgb(44,44,44);
+    border-left: 1px solid black;
+    transition: background 0.7s;
+}
+.fa-facebook{
+    padding-left: 12px;
+    padding-right: 10px;
+    transition: background 0.7s;
+}
+.fa-facebook:hover{
+    color: white;
+    background-color: rgb(24,119,242);
+}
+.fa-twitter:hover{
+    color: white;
+    background-color: rgb(0,162,243);
+}
+.fa-google:hover{
+    color: white;
+    background-color: rgb(213,72,54);
+}
+.fa-reddit-alien:hover{
+    color: white;
+    background-color:rgb(247,206,4) ;
+}
+.fa-stumbleupon:hover{
+    color: white;
+    background-color: rgb(235,72,35);
+}
+.fa-youtube:hover{
+    color: white;
+    background-color:rgb(255,0,0);
+}
+.fa-envelope:hover{
+    color: white;
+    background-color: rgb(217,48,37);
+}
+.fa-telegram:hover{
+    color: white;
+    background-color: rgb(48,169,218) ;
+}
+
+/* <!-- --------------------------picture-------------------- --> */
+
+.col-11{
+    flex-basis: 65%;
+    padding-right: 30px;
+    /* background-color: yellow; */
+    /* padding: 10px; */
+}
+.col-22{
+    flex-basis: 35%;
+}
+.images{
+    background-image: url(images/new-jersey-in-pictures-most-beautiful-places-to-visit-hurd-park.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.data{
+    padding-top: 200px;
+}
+.heading, .para{
+    background-color: rgb(0, 0, 0,0.4);
+    padding: 5px;
+    margin: 20px;
+    margin-right: 60px;
+    color: white;
+}
+.heading{
+    font-size: 25px;
+    margin-right: 340px;
+}
+.para{
+    font-size: 15px;
+}
+.strip{
+    background-color: black;
+}
+.heading1 span{
+    background-color: rgb(208,131,207);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+.heading1{
+    text-align: center;
+}
+.data1{
+    /* background-color: yellow; */
+    margin-top: 30px;
+    /* float: left; */
+}
+.data1 img{
+    width: 90px;
+    height: 70px;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 10px;
+}
+.data1 p{
+    float: left;
+}
+
+/* <!-- ------------------------------business-------------------------- --> */
+
+.div5{
+    margin-top: 30px;
+}
+.col-111{
+    flex-basis: 50%;
+}
+.col-222{
+    flex-basis: 50%;
+}
+.col-111 .img1{
+    width: 95%;
+    height: 220px;
+}
+.col-111 .card{
+    margin-top: 40px;
+}
+
+.column2{
+    margin-top: 50px;
+}
+
+/* ------------------------------ */
+.strip1{
+    margin-right: 20px;
+}
+.strip2{
+    /* margin-top: -10px; */
+    margin-bottom: 20px;
+}
+.img2{
+    width: 360px;
+    height: 220px;
+    margin-top: 20px;
+}
+.aaa{
+    padding-left: 28.5px;
+    padding-right:28.5px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+}
+.aaaa{
+    background-color: rgb(208,131,207);
+}
+.nav11{
+    margin: 0%;
+}
+
+/* ------------------------------- */
+
+.blocks{
+    padding-top: 10px;
+    width: 350px;
+}
+.blocks span{
+    background-color: rgb(228,228,228);
+    padding: 10px 15px;
+    margin: 2px;
+    float: left;
+    color: rgb(136,136,136);
+    cursor: pointer;
+
+}
+.blocks span:hover{
+    background-color: rgb(208,131,207);
+    color: white;
+    transition: background 1s;
+    transition: color 0.7s;
+}
+
+/* ------------------ */
+.sponsor{
+    float: none;
+    margin-top: 150px;
+}
+.image11{
+  padding-top: 20px;
+  width:423px;
+
+}
+.image111{
+    width: 100%;
+    height: 300px;
+}
+
+.category{
+    margin-top: 20px;
+}
+
+/* -------------drop------------------------- */
+
+.drop{
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(208,131,207);
+    color: white;
+    font-size: 17px;
+}
+.select{
+    background-color: white;
+    color: rgb(208,131,207);
+}
+
+.link{
+    margin-top: 30px;
+}
+/* -----------------------------para===================== */
+
+.para2{
+    margin-top: 20px;
+}
+.para2 p{
+    border-bottom: 1px solid rgb(52,52,52);
+    color: rgb(52,52,52);
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.para2 p:hover{
+    color: rgb(208,131,207);
+}
+
+
+
+/* <!-- ---------------------images-------------------- --> */
+
+.images6{
+    margin-top: 20px;
+}
+
+.images6 img{
+    margin: 2px;
+    width: 246px;
+    height: 160px;
+}
+.images6 img:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.game{
+    margin-top: 20px;
+}
+
+
+/* <!-- -------------------footer-------------------------------- --> */
+
+
+.footer{
+    margin-top: 20px;
+    background-color: rgb(37,37,37);
+    /* margin-bottom: 100px; */
+    padding-top: 20px;
+    /* padding-bottom: 100px; */
+}
+.col-33{
+    flex-basis: 30%;
+}
+.col-33 p{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(164,164,164);
+    width: 100%;
+    color: rgb(164,164,164);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.col-33 p:hover{
+    color: rgb(208,131,207);
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.smalll{
+    color: rgb(164,164,164);
+}
+.smalll1{
+    display: block;
+    color: rgb(164,164,164);
+    margin-top: 10px;
+}
+
+h4{
+    color: rgb(164,164,164);
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(164,164,164);
+    padding-bottom: 5px;
+    padding-top: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h4:hover{
+    color:rgb(208,131,207) ;
+    border-bottom: 1px solid rgb(208,131,207) ;
+    transition: color 0.5s;
+    transform: translate(10px);
+    transition: 0.5s;
+}
+
+
+
+.copy{
+    background-color: rgb(48,48,48);
+    margin-top: 60px;
+}
+.copy p{
+    padding: 20px;
+    color: rgb(164,164,164);
+}
